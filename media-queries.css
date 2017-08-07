@@ -15,6 +15,13 @@ body{
     width:50%;
 }
 section{
-    display:inline;
-    width: 50%;
+    float: left;
+}
+
+.main {
+    width: 60%;
+}
+
+.sub-section {
+    width: 40%;
 }
