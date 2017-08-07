@@ -1,0 +1,20 @@
+h1 {
+    display: inline;
+    float: left;
+}
+
+.nav-links li{
+    display: inline-block;
+    float: right;
+}
+.header-img{
+    clear:both;
+}
+body{
+    margin: 0 auto;
+    width:50%;
+}
+section{
+    display:inline;
+    width: 50%;
+}
