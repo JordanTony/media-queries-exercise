@@ -6,6 +6,7 @@ h1 {
 .nav-links li{
     display: inline-block;
     float: right;
+    margin-left: 15px;
 }
 .header-img{
     clear:both;
@@ -34,4 +35,18 @@ width: 30%;
 
 * {
      box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    h1 {
+        text-align: center;
+        color: red;
+        display: block;
+    }
+    body{
+        margin: 0 auto;
+    }
+    .nav-links li{
+        display: block;
+        margin-left: 15px;
+    }
 }
